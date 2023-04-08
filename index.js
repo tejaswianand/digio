@@ -12,7 +12,7 @@ const app = express();
 dotenv.config();
 app.use(express.json({ limit: "50mb" }));
 
-app.use(cors({ origin: "https://digio.xietuslab.in/" }));
+app.use(cors({ origin: "https://digio.xietuslab.in" }));
 
 connection();
 
